@@ -1,5 +1,5 @@
 {
-  "addPath": "",
+  "addPath": "/webarkit/",
   "cameraPara": "../examples/Data/camera_para.dat",
   "container": {
     "create": true,
@@ -24,7 +24,7 @@
       "src": "Data/arNFT-logo.gif",
       "alt": "arNFT.js logo"
     },
-    "loadingMessage": "Loading, please wait8..."
+    "loadingMessage": "Loading, please wait9..."
   },
   "stats": {
     "createHtml": true
