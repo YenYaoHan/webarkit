@@ -21,10 +21,10 @@
   "loading": {
     "create": true,
     "logo": {
-      "src": "Data/arNFT-logo.gif",
+      "src": "Data/640px-DELTA_Electronics_Logo.png",
       "alt": "arNFT.js logo"
     },
-    "loadingMessage": "Loading, please wait..."
+    "loadingMessage": "Loading, please wait1..."
   },
   "stats": {
     "createHtml": true

@@ -22,7 +22,7 @@
     <script>
         let width = 640;
         let height = 480;
-        ARnft.ARnft.init(width, height, [["../examples/DataNFT/CPBG-image"]], [['CPBG-image']], 'config.json', true)
+        ARnft.ARnft.init(width, height, [["../examples/DataNFT/delta-logo-rect"]], [['delta-logo-rect']], 'config.json', true)
             .then((nft) => {
                 let mat = new THREE.MeshLambertMaterial({
                     color: 0xff0000
@@ -62,7 +62,7 @@
 
                     let nftAddTJS = new ARnftThreejs.NFTaddTJS(nft.uuid);
                     nftAddTJS.oef = true;
-                    nftAddTJS.add(cube, 'CPBG-image', false);
+                    nftAddTJS.add(cube, 'delta-logo-rect', false);
 
                     const tick = () => {
                         sceneThreejs.draw();
