@@ -24,7 +24,7 @@
       "src": "Data/arNFT-logo.gif",
       "alt": "arNFT.js logo"
     },
-    "loadingMessage": "Loading, please wait9..."
+    "loadingMessage": "Loading, please wait..."
   },
   "stats": {
     "createHtml": true

@@ -9,12 +9,12 @@
 </head>
 
 <body>
-
+ <!--
     <a href="https://raw.githubusercontent.com/artoolkitx/artoolkit5/master/doc/Marker%20images/pinball.jpg"
         class="ui marker" target="_blank">
         🖼 Marker Image
     </a>
-
+  -->
     <script src="js/third_party/three.js/three.min.js"></script>
     <script src="js/ARnftThreejs.js"></script>
     <script src="../dist/ARnft.js"></script>
@@ -22,7 +22,7 @@
     <script>
         let width = 640;
         let height = 480;
-        ARnft.ARnft.init(width, height, [["../examples/DataNFT/pinball"]], [['pinball']], 'config.json', true)
+        ARnft.ARnft.init(width, height, [["../examples/DataNFT/CPBG-image"]], [['CPBG-image']], 'config.json', true)
             .then((nft) => {
                 let mat = new THREE.MeshLambertMaterial({
                     color: 0xff0000
@@ -62,7 +62,7 @@
 
                     let nftAddTJS = new ARnftThreejs.NFTaddTJS(nft.uuid);
                     nftAddTJS.oef = true;
-                    nftAddTJS.add(cube, 'pinball', false);
+                    nftAddTJS.add(cube, 'CPBG-image', false);
 
                     const tick = () => {
                         sceneThreejs.draw();
