@@ -24,7 +24,7 @@
       "src": "Data/640px-DELTA_Electronics_Logo.png",
       "alt": "arNFT.js logo"
     },
-    "loadingMessage": "Loading, please wait2..."
+    "loadingMessage": "Loading, please wait..."
   },
   "stats": {
     "createHtml": true
