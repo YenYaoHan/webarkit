@@ -26,7 +26,7 @@
     <script>
         let width = 640;
         let height = 480;
-        ARnft.ARnft.init(width, height, [["../examples/DataNFT/news_default"]], [['news_default']], 'config.json', true)
+        ARnft.ARnft.init(width, height, [["../examples/DataNFT/CPBG-image-compress"]], [['CPBG-image-compress']], 'config.json', true)
             .then((nft) => {
                 let mat = new THREE.MeshLambertMaterial({
                     color: 0xff0000
@@ -83,9 +83,9 @@
 
                     //nftAddTJS.add(cube, 'delta-logo-rect', false);
                     // Set width, height and width and height number of segments of the PlaneGeometry.
-                    //let imgConfig = {w: 0.32, h: 0.24, ws: 1, hs: 1};
- 					//nftAddTJS.addVideo('arvideo', 'delta-logo-rect', 120, imgConfig, false);
-                    nftAddTJS.addModel('./Data/robot.gltf', 'news_default', 250, false);
+                    let imgConfig = {w: 0.32, h: 0.24, ws: 1, hs: 1};
+ 					nftAddTJS.addVideo('arvideo', 'CPBG-image-compress', 120, imgConfig, false);
+                    //nftAddTJS.addModel('./Data/robot.gltf', 'CPBG-image-compress', 250, false);
 
                     const tick = () => {
                         sceneThreejs.draw();
